@@ -1,0 +1,33 @@
+#grid {
+	background: #fff url('../img/grid.png') top left;
+	position: fixed;
+	top: 0;
+	width:100%;
+	height: 2000px;
+	z-index: 1;
+
+}
+
+#content {
+	color: #888;
+	position: relative;
+	text-align: center;
+	width: 960px;
+	margin:0 auto;
+	z-index: 2;
+}
+
+#content article {
+	background-color: #f4f4f4;
+	border: 1px solid #ddd;
+	height: 200px;
+	padding: 20px;
+	opacity: .9;
+	margin: 50px 0 ;
+	text-align: left;
+	border-radius: 15px;
+}
+
+#content h1 {
+	color: #fff; text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95; letter-spacing: 5px; font: 80px;
+}

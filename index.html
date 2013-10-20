@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Parallax Basics</title>
+		<meta charset="utf-8"/>
+		
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/main.css"/>
+		
+		<script src="js/jquery-1.9.1.min.js"></script>
+		<script src="js/parallax.js"></script>
+	</head>
+	<body>
+		<div id="grid"></div>
+		<div id="content">
+			<h1>testing some simple parallax scrolling</h1>
+			<article>
+				<h2>Da history</h2>
+				<p>Parallax scrolling is a special scrolling technique in computer graphics, wherein background images move by the camera slower than foreground images, creating an illusion of depth in a 2D video game and adding to the immersion.[1] The technique grew out of the multiplane camera technique used in traditional animation since the 1940s,and was popularized in the 1982 arcade game Moon Patrol. (from Wikipedia)</p>
+			</article>
+			<article>
+				<h2>The layer method</h2>
+				<p>Some display systems support multiple background layers that can be scrolled independently in horizontal and vertical directions and composited on one another, simulating a multiplane camera. On such a display system, a game can produce parallax by simply changing each layer's position by a different amount in the same direction. Layers that move more quickly are perceived to be closer to the virtual camera. Layers can be placed in front of the playfield—the layer containing the objects with which the player interacts—for various reasons such as to provide increased dimension, obscure some of the action of the game, or distract the player.</p>
+			</article>
+			<article>
+				<h2>The sprite method</h2>
+				<p>Programmers may also make pseudo-layers of sprites—individually controllable moving objects drawn by hardware on top of or behind the layers—if they are available on the display system. For instance Star Force, an overhead-view vertically scrolling shooter for NES, used this for its starfield, and Final Fight for the Super NES used this technique for the layer immediately in front of the main playfield.</p>
+			</article>
+			<article>
+				<h2>The repeating pattern/animation method</h2>
+				<p>Scrolling displays built up of individual tiles can be made to 'float' over a repeating background layer by animating the individual tiles' bitmaps in order to portray the parallax effect. Color cycling can be used to animate tiles quickly on the whole screen. This software effect gives the illusion of another (hardware) layer. Many games used this technique for a scrolling star-field, but sometimes a more intricate or multi-directional effect is achieved, such as in the game Parallax by Sensible Software.</p>
+			</article>
+			<article>
+				<h2>The raster method</h2>
+				<p>In raster graphics, the lines of pixels in an image are typically composited and refreshed in top-to-bottom order with a slight delay (called the horizontal blanking interval) between drawing one line and drawing the next line. Games designed for older graphical chipsets—such as those of the third and fourth generations of video game consoles, those of dedicated TV games, or those of similar handheld systems—take advantage of the raster characteristics to create the illusion of more layers.</p>
+			</article>
+		</div>
+	</body>
+</html>
